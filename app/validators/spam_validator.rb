@@ -7,10 +7,3 @@ class SpamValidator < ActiveModel::EachValidator
     end
   end
 end
-
-# class SpamValidator < ActiveModel::EachValidator
-#   def validate_each(record, attribute_name, value)
-#     debugger
-#     true
-#   end
-# end
